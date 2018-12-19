@@ -10,7 +10,7 @@ namespace ConsoleApp22
     {
         enum week
         {
-            lundi,
+            lundi, // mettre lundi = 1
             mardi,
             mercredi,
             jeudi,
@@ -28,5 +28,9 @@ namespace ConsoleApp22
             // Console.WriteLine(Enum.ToObject(typeof(week), 0));
          Console.WriteLine("1"+ "\n"+ Enum.GetName(typeof(week),1) + "\n" + Enum.GetName(typeof(week), 2) + "\n" + Enum.GetName(typeof(week), 3) + "\n" + Enum.GetName(typeof(week),4) + "\n" + Enum.GetName(typeof(week), 5) + "\n" + Enum.GetName(typeof(week), 6));
         }
+        // week lundi = week.lundi;
+        // week mardi = week.mardi;...
+        // Console.WriteLine(lundi);
+        
     }
 }
